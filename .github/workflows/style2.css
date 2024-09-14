@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+@import url('https://fonts.cdnfonts.com/css/one-piece');
+header{
+    h1{
+        background-color: black;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-family: "Playwrite CU", cursive;
+        border-radius: 20px;
+    }
+}
+img{
+    width:1300px;
+    height:700px;
+    padding:75px;
+    position:flex;
+}
+h2{
+    text-align: center;
+    font-family: "SUSE", sans-serif;
+    
+}
+body{background-color: rgb(176, 167, 167);}
+section{
+    background-color: beige;
+
+}
+#para1{ text-align: center;
+width: 200px;
+position:flex ;
+}
+h3{
+    text-align: center;
+    font-style: italic;
+    font-size: larger;
+    
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+#h{
+    text-align: center;
+    color: rgb(59, 45, 25);
+    font-family: "Playwrite CU", cursive;
+    
+}
+#a{
+    text-align: center;
+    color: rgb(59, 45, 25);
+    font-family: "Playwrite CU", cursive;
+}
+#t{
+    text-align: center;
+    color: rgb(59, 45, 25);
+    font-family: "Playwrite CU", cursive;
+}
+#s{
+    text-align: center;
+    color: rgb(59, 45, 25);
+    font-family: "Playwrite CU", cursive;
+}
+#d{
+    text-align: center;
+    color: black;
+    font-family: "SUSE", sans-serif;
+
+}
+nav a{
+    transform: scale(1);
+    transition: 0.2s ease;
+}
+    nav ul {
+        display: flex;
+        padding: 10px;
+        
+    }
+
+a{
+    text-decoration: none;
+   color: black;
+    text-shadow: 1px 1px 3px black;
+}
+nav li{
+    list-style: none;
+    padding:22px;
+    
+    
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    
+}
+nav button{
+    width: 90px;
+    height: 50px;
+    margin-top: 18px;
+    border-radius: 60px;
+    background-color: transparent;
+    font-family: "SUSE", sans-serif;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    filter: drop-shadow(2px 2px 2px black);
+    backdrop-filter: blur(10px);
+    border: 3px solid white;
+    cursor: pointer;
+    }
+    nav button:hover{
+        border: 3px solid rgb(59, 194, 18);
+    }

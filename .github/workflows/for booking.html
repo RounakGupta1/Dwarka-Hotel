@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dwarka Hotel Booking</title>
+	<link rel="stylesheet" href="style4.css">
+</head>
+<body>
+	<header>
+		<h1>Dwarka Hotel Booking</h1>
+		<nav> 
+		<Ul>
+			<li><a href="Home">Home</a></li>
+			<li><a href="aboutus.html">About Us</a></li>
+			<li><a href="Rooms.html">Rooms</a></li>
+			<li><a href="#for booking.html">For Booking</a></li>
+			<button>Sign Up</button>
+		</Ul>
+		</nav>
+		</header>
+	</header>
+	<main>
+		<form id="booking-form">
+			<h2>Booking Details</h2>
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name"><br><br>
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email"><br><br>
+			<label for="phone">Phone:</label>
+			<input type="tel" id="phone" name="phone"><br><br>
+			<label for="checkin">Check-in Date:</label>
+			<input type="date" id="checkin" name="checkin"><br><br>
+			<label for="checkout">Check-out Date:</label>
+			<input type="date" id="checkout" name="checkout"><br><br>
+			<label for="room-type">Room Type:</label>
+			<select id="room-type" name="room-type">
+				<option value="single">Single</option>
+				<option value="double">Double</option>
+				<option value="suite">Suite</option>
+			</select><br><br>
+			<label for="no-of-guests">Number of Guests:</label>
+			<input type="number" id="no-of-guests" name="no-of-guests"><br><br>
+			<button type="submit">Book Now</button>
+		</form>
+	</main>
+</body>
+</html>
